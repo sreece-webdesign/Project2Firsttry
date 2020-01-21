@@ -1,0 +1,55 @@
+h1 {
+  color: gold;
+  font-family: 'Lato', serif;
+  font-size: 60px;
+  line-height: 0px;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 15px;
+}
+
+p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 24px;
+}
+
+.box {
+  position: absolute;
+  background-color: gold;
+  width: 200px;
+  height:200px;
+  margin: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+
+.box2 {
+  position: relative;
+  max-width: 300px;
+  max-height: 200px;
+  margin: 100px;
+}
+
+.st0 {
+  fill: gold;
+}
+
+.st0:hover {
+  animation: colorchange .75s ease infinite;
+}
+
+@keyframes colorchange {
+    0% {
+      fill: white;
+    }
+
+    50% {
+      fill: orange;
+    }
+
+    100% {
+      fill: white;
+    }
+}
